@@ -1,4 +1,4 @@
-$.fn.RangeSlider = function (cfg) {
+$.fn.RangeSlider = function (cfg) {//滑动条设置
     this.sliderCfg = {
         min: cfg.min,
         max:cfg.max,
@@ -8,7 +8,7 @@ $.fn.RangeSlider = function (cfg) {
     $input.css('background-size', 28 + '% 100%');
     $input.bind("input", function () {
         $input.attr('value', this.value);
-        $input.css('background-size', (this.value - 4) * 7 + '% 100%');      
+        $input.css('background-size', (this.value - 4) * 7 + '% 100%'); //滑动条长度设置     
     });
 };
 
@@ -25,7 +25,7 @@ function change1() {
 
 }
 
-$("#scroll").bind('input propertychange', function () {
+$("#scroll").bind('input propertychange', function () {//滚动条和文本框同步-
     s = $("#scroll").val();
     $("#people-number").val(s);
     change1();
@@ -40,7 +40,7 @@ $("#people-number").keydown(function () {
     }
 })
 
-$("#people-number").bind('input propertychange', function () {
+$("#people-number").bind('input propertychange', function () {//超过界限处理
     change1();
     $("#scroll").val($("#people-number").val());
     if($("#people-number").val()<4 || $("#people-number").val()>18){
@@ -83,15 +83,15 @@ $("#button").click(function () { //input范围
         return false;
     }
     allPeople = new Array;
-    for (var i = 0; i < parseInt($("#killer").val()); i++) {
+    for (var i = 0; i < parseInt($("#killer").val()); i++) {//杀手输入写入
         allPeople.push("杀手");
     }
 
-    for (var c = 0; c < parseInt($("#people").val()); c++) {
+    for (var c = 0; c < parseInt($("#people").val()); c++) {//平民写入
         allPeople.push("平民");
     }
     theNewArray = allPeople;
-    for (var d = theNewArray.length; d--;) {
+    for (var d = theNewArray.length; d--;) {//
         var j = Math.floor(Math.random() * (d + 1));
         var temp = theNewArray[j];
         theNewArray[j] = theNewArray[d];
