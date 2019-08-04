@@ -1,0 +1,73 @@
+@import url(reset.css);
+@import url(base.css);
+body {
+    background-color: #29bde0;
+}
+.header-square {
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid white; 
+    border-left: 2px solid white;
+    border-right: 1px solid transparent;  
+    border-bottom: 1px solid transparent;
+    transform: rotate(-45deg);                    
+}
+.header-right {
+    position: relative;
+    margin-top: 6px;
+    width: 20px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(45deg);
+    zoom: 1.8;
+}
+
+.header-right2{
+    position: absolute;
+    transform: rotate(90deg);
+    width: 20px;
+    height: 1px;
+    background-color: white;
+}
+.main-border {
+    position: relative;
+    padding-bottom:121px;
+    margin-top: 60px;
+    border: 2px solid white;
+    background-color:#FFEDC5;
+    input {
+        position: absolute;
+        background-color: white;
+        border: 1px solid #FFEDC5;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        text-align: center;
+        color: #f56b81;
+        font-size: 18px;
+        left: calc(50% - 20px);
+        top: -5%;
+    }
+    .main-image {
+        width: 303px;
+        height: 303px;
+        margin: auto;
+        background-image: url(../image/card.png);
+        background-size: 100%;
+        background-repeat:no-repeat;
+        border-radius: 100px;
+        margin-top: 188px;
+        zoom: 0.5;
+    }
+}
+
+.footer {
+    left: 5%;
+    bottom: 2%;
+}
+#info {
+    text-align: center;
+    margin-top: 13px;
+    font-size: 20px;
+    color: red;
+}

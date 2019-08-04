@@ -1,0 +1,176 @@
+@import url(base.css);
+@import url(reset.css);
+a {
+  text-decoration: none;
+}
+
+.head-icon {
+  position: absolute;
+  left: 0;
+  margin-top: 10px;
+  width: 34px;
+  box-shadow: 7px 21px 0 1px white, 
+ 7px 32px 0 1px white, 
+ 7px 8px 0 1px white;
+  zoom: 0.8;
+  transition: left 2s;
+  cursor: pointer;
+}
+
+.triangle {
+  position: absolute;
+  right: 0;
+  top: 6px;
+  right: -3px;
+  border: 4px solid  transparent;
+  border-left-color: #FBB435FF;
+  zoom: 4.6;
+}
+
+.allof {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.button {
+  display: none;
+}
+
+.all {
+  width: 159%;
+}
+
+.a00 {
+  position: absolute;
+  width: 37%;
+  height: 400px;
+  left: -37%;
+  transition: left 2s;
+}
+
+.head-icon-1 {
+  width: 29px;
+  height: 29px;
+  background: url(../image/a1.png) no-repeat;
+}
+
+.head-icon-2 {
+  width: 29px;
+  height: 29px;
+  background: url(../image/a2.png) no-repeat;
+}
+
+.head-icon-3 {
+  width: 29px;
+  height: 29px;
+  background: url(../image/a3.png) no-repeat;
+}
+
+.head-icon-4 {
+  width: 29px;
+  height: 29px;
+  background: url(../image/a4.png) no-repeat;
+}
+
+.head-icon-right {
+  width: 15px;
+  height: 15px;
+  transform: rotate(45deg);
+  border-left: 1px solid transparent;
+  border-right: 3px solid #29bde0;
+  border-top: 3px solid #29bde0;
+  border-bottom: 1px solid transparent;
+}
+
+.body-right {
+  width: 63%;
+  margin-left: 0;
+  transition: 2s;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.button:checked ~ .a00 {
+  left: 0;
+}
+
+.button:checked ~ .body-right {
+  margin-left: 23.5%;
+}
+
+.button:checked ~ .head-span {
+  left: 38%;
+}
+
+.button:checked ~ .head-icon {
+  left: 38%;
+  transition: left 2s;
+}
+
+.head {
+  height: 50px;
+}
+
+.head-span {
+  width: 39px;
+  height: 43px;
+  position: absolute;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.main-bottom-all {
+  padding-bottom: 8.05rem;
+}
+
+.main-padding {
+  padding-top: 1rem;
+}
+
+.main-margin {
+  margin-top: 2rem;
+}
+
+.main-lineheight {
+  line-height: 4;
+}
+
+.main-right {
+  top: -11px;
+  right: 6px;
+}
+
+.main-header-border {
+  border: 1px solid #dedede;
+}
+
+.main-bottom {
+  border-bottom: 1px solid #FBB435FF;
+}
+
+.main-middle {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.footer {
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.footer li {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50px;
+  border-radius: 1px solid #9a9a9a;
+  background-color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+.footer li:hover {
+  background-color: #29bde0;
+}

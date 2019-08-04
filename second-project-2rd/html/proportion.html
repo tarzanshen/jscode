@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../css/proportion.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+    <title>Document</title>
+</head>
+<body>
+<div class="bg-bl font-ff" >
+    <div class="width-90 d-flex justify-content-between mar-au pad-t1 pad-b1">
+        <div class="header-square"></div>
+        <div>参数设置</div>
+        <div class="header-icon text-center ">?</div>
+    </div>
+</div>
+<div class="mar-au width-90 text-center">
+    <form name="form1" >
+    <div class="bg-ff line-25 text-center margin-top"><span >玩家配比</span></div>
+    <div class="bg-ff line-25 text-center margin-top ">
+        <div class="width-50 mar-au d-flex justify-content-between align-items-center pad-t1 pad-b1">
+        <div class="header-middle-icon"><span>杀手&nbsp;&nbsp;<input type="text" name="killer" class="put" value="2" id="killer">&nbsp;&nbsp;人</span></div>
+        <div  class="header-middle-icon2"><span>平民&nbsp;&nbsp;<input type="text" name="people" class="put" value="6" id="people">&nbsp;&nbsp;人</span></div>
+        </div>
+    </div>
+    <div class="bg-ff margin-top">
+        <span class="leftb font-brown">-</span>
+        <input type="range" id="scroll" min="4" max="18" value="8" >
+        <span class="rightb font-brown">+</span>
+    </div>
+    <div class="bg-ff line-25 text-center margin-top">
+        <span>请输入玩家数量<input type="text" class="text bor-no" name="number" id="people-number" maxlength="2"   value="8"><span class="font-brown font-14">数量为4-18</span>
+    </div></form>
+   <input   type="submit" class="bg-yel font-ff line-25 bor-no width-50 mar-au margin-top1 font-18" value="去发牌" id="button" >
+    
+</div>
+<script src="../js/proportion.js"></script>
+<script src="../js/RangeSlider.js"></script>
+<script>  
+     
+        $('#scroll').RangeSlider({ min: 4,  max: 18,  step: 1});  
+    </script> 
+</body>
+</html>

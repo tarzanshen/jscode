@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url(reset.css);
+@import url(base.css);
+input[type=range] {
+  -webkit-appearance: none;
+  width: 300px;
+  border-radius: 10px;
+  /*这个属性设置使填充进度条时的图形为圆角*/
+  background: linear-gradient(#fbb435, #fbb435) no-repeat;
+  background-size: 0% 100%;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  height: 15px;
+  border-radius: 10px;
+  /*将轨道设为圆角的*/
+  box-shadow: 0 1px 1px #def3f8, inset 0 .125em .125em #999999;
+  /*轨道内置阴影效果*/
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 25px;
+  width: 25px;
+  margin-top: -5px;
+  /*使滑块超出轨道部分的偏移量相等*/
+  background: #ffffff;
+  border-radius: 50%;
+  /*外观设置为圆形*/
+  border: solid 0.125em rgba(205, 224, 230, 0.5);
+  /*设置边框*/
+  box-shadow: 0 .125em .125em #3b4547;
+  /*添加底部阴影*/
+}
+
+.leftb {
+  width: 28px;
+  height: 23px;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.leftb:hover {
+  cursor: pointer;
+}
+
+.rightb:hover {
+  cursor: pointer;
+}
+
+.rightb {
+  width: 28px;
+  height: 23px;
+  font-size: 40px;
+  display: inline-block;
+}
+
+#scroll {
+  width: 44%;
+}
+
+body {
+  background-color: #EFF0F4;
+}
+
+.header-square {
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  transform: rotate(-45deg);
+}
+
+.header-icon {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 100px;
+}
+
+.header-middle-icon {
+  position: relative;
+  height: 186px;
+  width: 225px;
+  zoom: 0.2;
+  background: url(../image/langren.png) no-repeat 100%;
+}
+
+.header-middle-icon span {
+  position: absolute;
+  width: 168%;
+  left: 226px;
+  /* left: 0; */
+  top: 33px;
+}
+
+.header-middle-icon2 {
+  position: relative;
+  height: 212px;
+  width: 198px;
+  zoom: 0.2;
+  background: url(../image/pingming.png) no-repeat 100%;
+}
+
+.header-middle-icon2 span {
+  position: absolute;
+  width: 168%;
+  left: 226px;
+  /* left: 0; */
+  top: 33px;
+}
+
+.text {
+  width: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #EFF0F4;
+}
+
+.put {
+  width: 66px;
+  border: none;
+  background-color: none;
+}
