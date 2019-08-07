@@ -1,0 +1,187 @@
+.bg-bl {
+    background-color: #29bde0;
+}
+.bg-128{
+    background-color: rgb(128,128,128);
+}
+.width-100 {
+    width: 100%;
+}
+.width-90 {
+    width: 90%;
+}
+.width-80 {
+    width: 80%;
+}
+.width-50 {
+    width: 50%;
+}
+.margin-top {
+    margin-top: 0.5rem;
+}
+.margin-top1 {
+    margin-top: 1rem;
+}
+.inline-b {
+    display: inline-block;
+}
+.bg-ff {
+    background-color: #fff;
+}
+.bg-green {
+    background-color: #83b09a;
+}
+.bg-or {
+    background-color: #f5c97b;
+}
+.bg-red {
+    background-color: #f66f6f;
+}
+.bg-fb {
+    background-color: #fbb435;
+}
+.bg-grey {
+    background-color: #f0f0f0;
+}
+.bg-blue{
+    background-color: #29bde0;
+}
+.of-a {
+    overflow: auto;
+}
+.font-ff {
+    color: #ffff;
+}
+.font-blue {
+    color: #29bde0;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-18 {
+    font-size: 18px;
+}
+.font-36 {
+    font-size: 36px;
+}
+.font-color {
+    color: #999999;
+}
+.font-red{
+    color: red;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-brown {
+    color: #ffc865;
+}
+.font-9a {
+    color: #9a9a9a;
+}
+.line-25 {
+    line-height: 2.5;
+}
+.line-6 {
+    line-height: 6;
+}
+.line-4 {
+    line-height: 4;
+}
+.bg-yel {
+    background-color: #FBB435FF;
+}
+.bg-bl2 {
+    background-color:#b9e9f5;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.list-no {
+    list-style-type: none;
+}
+.mar-au {
+    margin-left: auto;
+    margin-right: auto;
+}
+.bor-no {
+    border: none;
+}
+.d-flex {
+    display: flex;
+}
+.d-inlineb {
+    display: inline-block;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-evently {
+    justify-content: space-evenly;
+}
+.align-items-center {
+    align-items: center;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.p-a {
+    position: absolute;
+}
+.p-f {
+    position: fixed;
+}
+.left-0 {
+    left: 0;
+}
+.bottom-0 {
+    bottom: 0;
+}
+.top-0 {
+    top: 0;
+}
+.right-0 {
+    right: 0;
+}
+.p-r {
+    position: relative;;
+}
+.z-index {
+    z-index: 9999;
+}
+.over-au {
+    overflow: auto;
+}
+.pad-t {
+    padding-top: 0.5rem;
+}
+.pad-t1 {
+    padding-top: 1rem;
+}
+.pad-b1 {
+    padding-bottom: 1rem;
+}
+.border-2-ff {
+    border: 2px solid white;
+}
+.border-bo {
+    border-bottom: 1px solid #dedede;
+}
